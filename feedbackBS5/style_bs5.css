@@ -1,0 +1,64 @@
+/* Custom CSS to enhance Bootstrap styles */
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.form-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+h2 {
+  color: #007bb5 !important;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #007bb5;
+  border-color: #007bb5;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #005f8b;
+  border-color: #005f8b;
+}
+
+.form-control, .form-select {
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #007bb5;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 181, 0.25);
+}
+
+.text-muted {
+  font-size: 0.9rem;
+  text-align: center;
+}
